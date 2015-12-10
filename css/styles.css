@@ -12,7 +12,7 @@ body {
     font-family:'Source Sans Pro', Trebuchet MS, sans-serif;
     font-size:16px;
     /*color:#FFFFFF !important;*/
-    font-weight:600;
+    font-weight:400;
 }
 
 body {
@@ -22,7 +22,7 @@ body {
 h1, h2, h3, h4 {
     margin:0px;
     padding:0px;
-    color:#0033CC; /* #0033CC - THIS COLOR IS BLUE */
+    color:#8DC63F; /* #0033CC - THIS COLOR IS BLUE */
                     /* #DDEEFF - SECONDARY COLOR - THIS COLOR IS LIGHT BLUE */ 
 }
 
@@ -31,16 +31,95 @@ p {
     margin:15px 0px;
 }
 
+b, strong {
+    color:#8DC63F;
+}
 
 
+a {
+    color:#8DC63F;
+    text-decoration:none;
+}
+
+a:hover {
+    color:#FF7900; /* THIS COLOR IS ORANGE */
+}
+
+/* MAIN BODY STYLES */
+
+.mainWidth {
+    overflow:hidden;
+    margin:0px auto;
+    width:1200px;
+}
+
+/* ============ HEADER STYLES ============ */
+
+header {
+    background-color:#FFFFFF;
+}
+
+#header {
+    position:relative;
+    padding:15px 0px;
+}
+
+#logo a {
+    color:#FF7900; /* SECONDARY COLOR ORANGE */
+}
+
+#logo a:hover {
+    color:#8DC63F;
+}
+
+/* ------- MENU STYLES ------- */
+
+#menu {
+    position:absolute;
+    top:20px;
+    right:20px;
+}
+
+#menu ul {
+    display:inline-block;
+}
 
 
+#menu li {
+    display:inline;
+    text-align:center;
+}
 
+#menu li:after {
+    content:"|";
+    padding:0px 15px;
+    font-weight:600;
+    color:#000000;
+}
 
-/*HEADER STYLES*/
+.currentPage {
+    color:#FF7900;
+}
 
+.currentPage:hover {
+    color:#8DC63F;
+}
 
-/*BANNER STYLES*/
+/* BANNER STYLES */
 
+#bannerHome {
+    overflow:hidden;
+    padding:150px 0px;
+    border-top:3px solid #8DC63F;
+    background-size:cover;
+    background:url(../images/banner-home.jpg) no-repeat bottom center #FF7900;
+}
 
-/*FOOTER STYLES*/
+.bannerText {
+    font-size:6em;
+    color:#FFFFFF;
+    text-align:center;
+    text-shadow:7px 7px 10px #000000;
+}
+
+/* FOOTER STYLES */
