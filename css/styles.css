@@ -1,9 +1,46 @@
-h1 {
-    color:#00FF00;
+/*GLOBAL STYLES*/
+
+html, body {
+    height:100%;
+    width:100%;
 }
-p {
-    color:#FF0000;
-}
+
 body {
-    background-image:url(images/banner-home.jpg);
+    margin:0px;
+    padding:0px;
+    background-color:#F1F1F1;
+    font-family:'Source Sans Pro', Trebuchet MS, sans-serif;
+    font-size:16px;
+    /*color:#FFFFFF !important;*/
+    font-weight:600;
 }
+
+body {
+    color:#000000;
+}
+
+h1, h2, h3, h4 {
+    margin:0px;
+    padding:0px;
+    color:#0033CC; /* #0033CC - THIS COLOR IS BLUE */
+                    /* #DDEEFF - SECONDARY COLOR - THIS COLOR IS LIGHT BLUE */ 
+}
+
+p {
+    line-height:150%;
+    margin:15px 0px;
+}
+
+
+
+
+
+
+
+/*HEADER STYLES*/
+
+
+/*BANNER STYLES*/
+
+
+/*FOOTER STYLES*/
