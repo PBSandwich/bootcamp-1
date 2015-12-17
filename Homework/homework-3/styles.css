@@ -1,0 +1,70 @@
+/*
+	For: GeekWise Academy Bootcamp I - Homework #3 - 12/14/15 (Week 6)
+	By: Patrick Bridgemon
+*/
+* {
+	margin:0px auto;
+}
+
+h1, h3 {
+	color:#0E3D6F;
+}
+
+h1 {
+	font:2.5em Arial, sans-serif;
+	padding:30px 0px 10px 30px;
+}
+
+h3 {
+	font:1.5em Arial, sans-serif;
+	font-size:1.5em;
+	font-weight:normal;
+	text-transform:uppercase;
+	padding:0px 0px 0px 30px;
+}
+
+body {
+	background-color:#F3F2EB;	
+}
+
+img {
+	padding:0px 0px 0px 180px;
+}
+
+p, li {
+	color:#696866;
+	padding:20px 0px 5px 20px;
+	font-family:"Open Sans",sans-serif;
+	font-weight:400;
+	font-size:23px;	
+}
+
+li {
+	color:#696866;
+	padding:10px 0px 5px 10px;
+}
+
+ul {
+	padding:5px 0px 40px 60px;
+}
+
+a {
+	text-decoration:none;
+}
+
+a.button {
+	margin:0px 0px 0px 100px;
+	font-family:"Arvo",serif;
+	color:#FFFFFF;
+	background-color:#329E28; 		/* dark green */
+	border:1px solid #287E20; 		/* green */
+	border-radius:3px;
+	text-transform:uppercase;
+	padding:9px;
+	text-decoration:none;
+	transition:background 0.6s linear 0s, color 0.6s linear 0s;	
+}
+
+a.button:hover {
+	background-color:#0E3D6F; /* navy like */
+}

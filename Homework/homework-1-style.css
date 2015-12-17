@@ -1,0 +1,82 @@
+/*
+	For: GeekWise Academy - Homework Assignment #1 | November 14, 2015
+	By: Patrick Bridgemon
+*/
+#page-wrap {
+	width:800px;
+	margin:0 auto;
+	padding:20px;
+}
+h1 {
+	font:1.5em Arial, sans-serif;
+	text-transform:uppercase;
+	padding:10px 0px 10px 0px;
+}
+
+h2 {
+	padding:100px 0px 100px 20px;
+}
+
+h3 {
+	color:#0033CC; /* blue */
+	font-size:1em;
+	font-weight:normal;
+	padding:20px 0px 0px 20px;
+}
+
+.ridge {
+	margin-left:50px;
+	width:500px;
+	border-style:ridge;
+	padding:20px;
+}
+
+blockquote p {
+	font-weight: bold;
+	font-size:1.5em;
+}
+
+a.button {
+	margin:0px 0px 0px 10px;
+	background-color:#0033CC; /* blue */
+	padding:15px 20px;
+	color:#FFFFFF;
+	text-decoration:none;
+	border-radius:6px;
+	transition:background 0.6s linear 0s, color 0.6s linear 0s;	
+}
+
+a.button:hover {
+	background-color:#000080; /* navy */
+}
+
+.flip3D{ width:240px; height:200px; margin:0px 10px 20px 10px; float:left; } /* The flip3D snip comes from a free tutorial at DevelopPHP.com. */
+.flip3D > .front{
+	text-align:center;
+	position:absolute;
+	transform: perspective( 600px ) rotateY( 0deg );
+	color:#009900;  /* green */
+	font-weight:bold;
+	background:#FFFF99; width:240px; height:200px; border-radius: 7px;  /* light yellow */
+	backface-visibility: hidden;
+	transition: transform .5s linear 0s;
+}
+
+.flip3D > .back{
+	text-align:center;
+	position:absolute;
+	transform: perspective( 600px ) rotateY( 180deg );
+	color:#0000FF;  /* blue */
+	font-weight:bold;
+	background: #66CCFF; width:240px; height:200px; border-radius: 7px;  /* light blue */
+	backface-visibility: hidden;
+	transition: transform .5s linear 0s;
+}
+
+.flip3D:hover > .front{
+	transform: perspective( 600px ) rotateY( -180deg );
+}
+
+.flip3D:hover > .back{
+	transform: perspective( 600px ) rotateY( 0deg );
+}

@@ -14,10 +14,10 @@
         <header>
             <div id="header" class="mainWidth">
                 <div id="logo">
-                    <h1><a href="index.html" title="me">Patrick Bridgemon</a></h1>
+                    <h1 class="titleText"><a href="index.html" title="me">PB Sandwich</a></h1>
 
                     <!--THE CODE FOR THE LOGO IS BELOW-->
-                    <a href="index.html"><img src="images/logo.jpg" alt="" title="" /></a>
+                    <a href="index.html"><img src="images/logo.png" alt="pbsandwich logo" title="PB Sandwich" /></a>
                 </div>
                 <nav id="menu">
                     <ul>
@@ -40,11 +40,11 @@
             <div class="columnA">
                 <h2>Travel</h2>
                 <div class="box">
-                    <a href="http://www.travelchannel.com/" title="Travel Channel" target="_blank"><img src="images/column-1.jpg" alt="stonehenge" title="Travel Channel" /></a>
+                    <a href="travel.html" title="Travel"><img src="images/column-1.jpg" alt="stonehenge" title="Travel" /></a>
                     <span>Expand Horizons!</span>
                 </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, nulla, blanditiis soluta non delectus quae illo dolore alias? Nam, quisquam mollitia nemo culpa commodi eos delectus. Aliquid animi rerum ad?</p>
-                <a href="http://www.travelchannel.com/" title="Travel Channel" class="button" target="_blank">Click Here to Learn More...</a>
+                <a href="travel.html" title="Travel" class="button">Start Now...</a>
             </div>
             <!--COLUMN A ENDS HERE-->
             
@@ -52,11 +52,14 @@
             <div class="columnB">
                 <h2>Coding Pets</h2>
                 <div class="box">
-                    <a href="http://www.animalplanet.com/" title="Animal Planet" target="_blank"><img src="images/column-2.jpg" alt="Lady Dawg" title="Animal Planet" /></a>
-                    <span>Amazing Hounds!</span>
+					<div id="slide"> <!-- technique from: http://css3.bradshawenterprises.com/cfimg/ -->
+						<a href="pets/pets.html" title="Animal Planet" target="_blank"><img src="images/column-2a.jpg" alt="Lady Dawg" title="59 PAWS of CODE" class="bottom"/></a>
+						<a href="pets/pets.html" title="Animal Planet" target="_blank"><img src="images/column-2b.jpg" alt="Mega Pup" title="59 PAWS of CODE" class="top"/></a>
+					</div>
+					<span>59 Code Hounds!</span>
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, nulla, blanditiis soluta non delectus quae illo dolore alias? Nam, quisquam mollitia nemo culpa commodi eos delectus. Aliquid animi rerum ad?</p>
-                <a href="http://www.animalplanet.com/" title="Animal Planet" class="button" target="_blank">Click Here to Learn More...</a>
+                <p>HoundWise Industries, Inc. sponsored their annual code marathon for your pampered pooches. As Lady and Mega Pup go for the code kibble <i>who will win?</i> Catch this year’s four-paw stars!</p>
+                <a href="pets/pets.html" title="59 PAWS of CODE" class="button" target="_blank">See Clever Pets...</a>
             </div>
             <!--COLUMN B ENDS HERE-->            
 
@@ -65,10 +68,10 @@
                 <h2>Home Theater</h2>
                 <div class="box">
                     <a href="http://hometheaterreview.com/" title="Home Theater" target="_blank"><img src="images/column-3.jpg" alt="Portal Theater" title="Portal Theater" /></a>
-                    <span>Home Movies!</span>
+                    <span>Rockin' Home!</span>
                 </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, nulla, blanditiis soluta non delectus quae illo dolore alias? Nam, quisquam mollitia nemo culpa commodi eos delectus. Aliquid animi rerum ad?</p>
-                <a href="http://hometheaterreview.com/" title="Home Theater"  class="button" target="_blank">Click Here to Learn More...</a>
+                <a href="http://hometheaterreview.com/" title="Home Theater"  class="button" target="_blank">Click to Rock...</a>
             </div>
             <!--COLUMN C ENDS HERE-->            
             
@@ -76,13 +79,16 @@
             
             <section class="mainWidth" id="aboutMe">
                 <aside class="alignLeft">
-                    <img src="images/patrick.jpg" alt="Owl Image of Patrick" title="Patrick"/>
+                    <img src="images/patrick.jpg" alt="Owl Image of Patrick" title="Patrick Bridgemon"/>
                 </aside>
                 <article class="alignRight">
-                    <h2>Patrick Bridgemon</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, odit, nihil, magni corrupti quae <span style="color:#00FF00;">;lkjsdf kajsdf;lk kljsdf</span> doloremque pariatur maiores in repellendus tempore cumque obcaecati ea recusandae laborum ad voluptas similique veniam!</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo doloremque hic eveniet nulla voluptatibus <mark>Some Words in here.</mark>. Tempore, ducimus voluptatum <button>Don't Click Me</button>dolorem est neque iure voluptatem ratione aspernatur blanditiis <b>BOLD TEXT 1</b> tenetur architecto <strong>BOLD TEXT 2</strong>optio possimus!</p>
-                    <a href="about.me" title="" class="button">Read my Full Bio</a>
+                    <h2>Patrick Bridgemon - Computer Bug Since '83</h2>
+					<img src="images/computer-bug3.jpg" alt="Computer Bug image" title="1983 - present: Computer Bug" class="alignRightBug"/>
+					<p class="alignLeft"><img src="logos/csc-logo.jpg" alt="CSC logo" title="1987 - Computer Sciences Corporation Documentation Specialist"/></p>
+                    <p class="alignLeft"><img src="logos/sierraonline-logo.jpg" alt="Sierra logo" title="1989 - Sierra Online Game Designer"/></p>
+                    <p class="alignLeft"><img src="logos/creative-computer-consulting-logo.jpg" alt="Creative Computer Consulting logo" title="1994 - Creative Computer Consulting Owner"/></p>
+                    <p class="alignLeft"><img src="logos/pollstar.jpg" alt="PollStar logo" title="2000 - PollStar Client-Server Programmer"/></p>
+                    <a href="about-me.html" title="" class="button">Read my Full Bio</a>
                 </article>
             </section>
             
@@ -95,7 +101,7 @@
                 <a href="" title="" target="_blank"><i class="fa fa-linkedin"></i></a>
                 <a href="" title="" target="_blank"><i class="fa fa-github"></i></a>
             </div>
-            <p>&copy;2016 Mr. Patrick Bridgemon. All rights reserved. | Site by <a href="" title="">PB Sandwich</a></p>
+            <p>&copy;2016 Mr. Patrick Bridgemon. All rights reserved. | Site by <a href="" title="">PBSandwich.</a></p>
         </footer>
     </body>
 </html>
