@@ -115,6 +115,13 @@ header {
     background:url(../images/banner-home.jpg) no-repeat center center #FF7900;
 }
 
+.bannerCenter {
+    margin:0px auto;
+    overflow:hidden;
+    text-align:center;
+    width:800px;
+}
+
 #banner_about {
     overflow:hidden;
     padding:150px 0px;
@@ -210,28 +217,6 @@ a.button:hover {
     color:#FFFFFF;
 }
 
-.vidContainer {
-    width:90%;
-    margin:0px auto;
-}
-
-#videoHolder {
-    width:100%;
-    position:relative;
-    padding-bottom:56.25%;
-    padding-bottom:30px;
-    height:0px;
-    overflow:hidden;
-}
-
-#videoHolder iframe, .video-container object, .video-container embed {
-    position:absolute;
-    top:0px;
-    left:0px;
-    width:100%;
-    height:100%;
-}
-
 /* ABOUT ME SECTION */
 
 .alignLeft {
@@ -253,6 +238,28 @@ a.button:hover {
     width:80%;
     margin:30px auto;
     background-color:#8DC63F;
+}
+
+.vidContainer {
+    width:90%;
+    margin:0px auto;
+}
+
+#videoHolder {
+    width:100%;
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0px;
+    overflow:hidden;
+}
+
+#videoHolder iframe, .video-container object, .video-container embed {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
 }
 
 /* FOOTER STYLES */

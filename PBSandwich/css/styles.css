@@ -116,6 +116,22 @@ header {
     background:url(../images/banner-home.jpg) no-repeat center #7D7D7D; /* Dark Gray */
 }
 
+#banner_about {
+    overflow:hidden;
+    padding:150px 0px;
+    border-top:3px solid #7D7D7D;
+    background-size:cover;
+    background:url(../images/banner-home.jpg) no-repeat center #7D7D7D; /* Dark Gray */
+}
+
+#banner_contact {
+    overflow:hidden;
+    padding:150px 0px;
+    border-top:3px solid #8DC63F;
+    background-size:cover;
+    background:url(../images/banner-home.jpg) no-repeat center #7D7D7D; /* Dark Gray */
+}
+
 .bannerText {
     font-size:6em;
     color:#FFFF00;
