@@ -299,6 +299,32 @@ a.button:hover {
 	animation-direction: alternate;
 } 
 
+/* =============== EXTRA STYLES ================= */
+
+#starWars {
+    width:100%;
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0px;
+    overflow:hidden;
+    width:90%;
+    margin:0px auto;
+}
+
+#starWars iframe, #starWars embed {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+}
+
+.video {
+    width:350px;
+    margin:25px auto;
+}
+
 /* =============== ABOUT ME SECTION ================== */
 
 .alignLeft {
@@ -371,6 +397,12 @@ article h2 {
     float:left;
     margin-right:24px;
 }
+
+.vidContainer {
+    width:90%;
+    margin:0px auto;
+}
+
 /*
 .alignRight a {
     padding:15px;
@@ -418,4 +450,46 @@ footer a:hover {
 .fa:hover {
     background-color:#A3A3A3;
     color:#FFFF00;
+}
+
+/* TODO: Add Linked In*/
+.fa-facebook {background-color:#0c516e;}
+.fa-twitter {background-color:#8ca6d9;}
+.fa-github {background-color:#000000;}
+
+/* MOBILE WEBSITE STYLES */
+
+ /* TABLET STYLES HERE */
+@media screen and (max-width: 768px) {
+        .mainWidth {
+            width:90%;
+            margin:0px auto;
+        }
+        
+        body {
+            background-color:#000000;
+            color:#FFFFFF;
+        }
+}
+ /* PHONES */
+ 
+@media screen and (max-width: 400px) {
+        .mainWidth {
+            width:90%;
+            margin:0px auto;
+        }
+        
+        body {
+            background-color:#FF7900;
+        }
+        
+        h1 {
+            font-size:.75em;
+        }
+        
+        .bannerText {
+            font-size:1em;
+            color:#000000;
+            
+        }
 }
